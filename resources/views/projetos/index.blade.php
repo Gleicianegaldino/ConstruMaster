@@ -6,7 +6,7 @@
 	<div class="row">
         <div class="col">
             <div class="pull-left">
-                <h2>Projetos Index</h2>
+                <h2>Meus Projetos</h2>
             </div>            
         </div>
     </div>

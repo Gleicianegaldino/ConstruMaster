@@ -41,7 +41,7 @@
     </div>
     <div class="row">
         <div class="col text-center">
-            <button type="submit" class="btn col btn-primary"> Update</button>
+            <button type="submit" class="btn col btn-primary"> Salvar</button>
         </div>
     </div>
 

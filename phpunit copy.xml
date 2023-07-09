@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<phpunit
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="./vendor/phpunit/phpunit.xsd"
+    bootstrap="vendor/autoload.php"
+    colors="true"
+    executionOrder="default"
+    resolveDependencies="true"
+>
+    <testsuites>
+        <testsuite name="Unit">
+            <directory suffix="test.php">.tests/Unit</directory>
+        </testsuite>
+        <testsuite name="Feature">
+            <directory suffix="test.php">.tests/Feature</directory>
+        </testsuite>
+    </testsuites>
+
+    <coverage processUncoveredFiles="true">
+        <included>
+            <directory suffix=".php">./app</directory>
+        </included>
+    </coverage>
+
+    <filter>
+        <whitelist>
+            <directory suffix=".php">app</directory>
+        </whitelist>
+    </filter>
+</phpunit>

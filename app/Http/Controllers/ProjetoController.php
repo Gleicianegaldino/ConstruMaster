@@ -14,7 +14,7 @@ class ProjetoController extends Controller
      */
     public function index()
     {    
-        $projetos = Projeto::where('user_id', Auth::id())->orderBy('created_at','asc')->paginate(4);
+        $projetos = Projeto::where('user_id', Auth::id())->orderBy('created_at','asc')->paginate(100);
         
         return view('projetos.index', compact('projetos'));
     }

@@ -4,7 +4,7 @@
     <div class="row">
         <div class="col">
             <div class="pull-left">
-                <h2> Todos os Projetos</h2>
+                <h2>Projeto</h2>
             </div>
         </div>
     </div>
